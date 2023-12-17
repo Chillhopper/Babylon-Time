@@ -23,6 +23,7 @@ downloadButton.addEventListener('click', () => {
   downloadScene('example', scene);
 });
 
-// window.addEventListener('resize', function() {
-//   engine.resize();
-// });
+window.addEventListener('resize', async function() {
+  await engine.resize();
+});
+
